@@ -7,10 +7,10 @@ The system implements the following functional requirements as per the problem s
 * Activate or deactivate the solar panels.
 * Collect data if the solar panels are active.
 ## Implementation Details
-### The codebase is implemented in Java and adheres to best practices, SOLID principles, and design patterns to ensure high code quality and maintainability.
-### Implemented necessary classes: Satellite, InvalidOrientationException, DataCollectionException.
-### Proper exception handling for handling invalid orientation, and data collection when solar panels are inactive.
+The codebase is implemented in Java and adheres to best practices, SOLID principles, and design patterns to ensure high code quality and maintainability.
+Implemented necessary classes: Satellite, InvalidOrientationException, DataCollectionException.
+Proper exception handling for handling invalid orientation, and data collection when solar panels are inactive.
 ## Exception Handling
 Exception handling is incorporated to handle various scenarios:
-#### *InvalidOrientationException: Thrown when an invalid orientation is provided.
-#### *DataCollectionException: Thrown when an attempt is made to collect data when solar panels are inactive.
+* InvalidOrientationException: Thrown when an invalid orientation is provided.
+* DataCollectionException: Thrown when an attempt is made to collect data when solar panels are inactive.
